@@ -2,7 +2,16 @@ tensorflow-tutorial
 ====
 
 # installing
-* pip install tensorflow
+* 用conda 代替pip
+```
+>>>conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+>>>conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+>>>conda config --set show_channel_urls yes
+>>> conda install tensorflow==1.8.0
+##pip安装tensorflow1.6版本及以上都不能使用 
+
+
+```
 * 编译源码
 ```
 >>>git clone https://github.com/tensorflow/tensorflow.git 
