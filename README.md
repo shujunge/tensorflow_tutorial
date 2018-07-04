@@ -32,7 +32,7 @@ tensorflow-tutorial
 
 ## [ML concepts](./ML_Concepts)
 
-
+## [Embeddings](./Embeddings)
 ## [Debugging](./Debugging)
 
 ## [TensorBoard](./TensorBoard)
